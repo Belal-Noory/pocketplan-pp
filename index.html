@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>PocketPlan - Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #f5f5f5;
+        --text: #212121;
+        --text-secondary: #757575;
+        --primary: #6200ee;
+        --secondary: #03dac5;
+        --accent: #bb86fc;
+        --card: #ffffff;
+        --border: #e0e0e0;
+        --highlight: #ff4081;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #121212;
+          --text: #ffffff;
+          --text-secondary: #b0b0b0;
+          --primary: #bb86fc;
+          --secondary: #03dac5;
+          --accent: #6200ee;
+          --card: #1e1e1e;
+          --border: #2c2c2c;
+        }
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: var(--card);
+        border-radius: 16px;
+        padding: 40px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        border: 1px solid var(--border);
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid var(--secondary);
+      }
+
+      h1 {
+        color: var(--primary);
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+      }
+
+      .subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+      }
+
+      h2 {
+        color: var(--primary);
+        margin: 30px 0 15px;
+        font-size: 1.8rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      h2::before {
+        content: "•";
+        color: var(--secondary);
+        font-size: 2rem;
+      }
+
+      h3 {
+        color: var(--accent);
+        margin: 20px 0 10px;
+        font-size: 1.3rem;
+      }
+
+      p,
+      li {
+        color: var(--text);
+        margin-bottom: 15px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+
+      .highlight-box {
+        background: linear-gradient(135deg, var(--secondary), var(--primary));
+        color: white;
+        padding: 20px;
+        border-radius: 12px;
+        margin: 25px 0;
+        font-weight: 500;
+      }
+
+      .icon {
+        font-size: 1.5rem;
+        margin-right: 8px;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        color: var(--text-secondary);
+      }
+
+      .contact {
+        background: var(--bg);
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        border: 1px solid var(--border);
+      }
+
+      @media (max-width: 600px) {
+        .container {
+          padding: 25px;
+        }
+        h1 {
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1><span class="icon">📱</span> PocketPlan</h1>
+        <p class="subtitle">Privacy Policy</p>
+        <p style="color: var(--text-secondary); margin-top: 10px">
+          Last Updated: November 2025
+        </p>
+      </header>
+
+      <section class="highlight-box">
+        <strong>🔒 Your Data Stays on Your Device</strong><br />
+        PocketPlan stores all your financial data locally on your phone. We
+        never access, collect, or transmit your personal information to our
+        servers.
+      </section>
+
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Welcome to PocketPlan. This privacy policy explains how we handle your
+          personal financial data. Our commitment is simple:
+          <strong>your data is yours alone</strong>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data Collection</h2>
+        <h3>📧 Login Information</h3>
+        <p>
+          Your email and password are stored
+          <strong>exclusively on your device</strong> using secure local storage
+          (Zustand). We do not have access to this information and do not
+          operate any cloud database.
+        </p>
+
+        <h3>💰 Financial Data</h3>
+        <p>
+          All income, expense entries, and financial records you input are
+          stored <strong>locally on your device</strong>. This data never leaves
+          your phone.
+        </p>
+
+        <h3>📊 AI Recommendations</h3>
+        <p>
+          AI-powered tips are generated using on-device processing or through
+          third-party AI APIs. When using external APIs,
+          <strong>only anonymized prompts</strong> are sent without any
+          personally identifiable information.
+        </p>
+
+        <h3>📄 PDF Reports</h3>
+        <p>
+          PDF reports are generated locally on your device. Generated files are
+          saved to your device's storage and are not transmitted to our servers.
+        </p>
+      </section>
+
+      <section>
+        <h2>Third-Party Services</h2>
+        <p>We may use the following third-party services:</p>
+        <ul>
+          <li>
+            <strong>AI Providers:</strong> OpenAI, Gemini, or similar
+            (anonymized requests only)
+          </li>
+          <li><strong>Analytics:</strong> None - we do not track your usage</li>
+          <li><strong>Advertising:</strong> None - we do not show ads</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Data Security</h2>
+        <p>Your data is protected by:</p>
+        <ul>
+          <li>Local device encryption</li>
+          <li>No cloud transmission</li>
+          <li>No server storage</li>
+          <li>Complete offline functionality</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Your Rights</h2>
+        <p>Since we don't collect your data, you have full control:</p>
+        <ul>
+          <li>✅ <strong>Access:</strong> View all your data in the app</li>
+          <li>
+            ✅ <strong>Delete:</strong> Uninstall the app to delete all data
+          </li>
+          <li>
+            ✅ <strong>Export:</strong> Use PDF report feature to export your
+            data
+          </li>
+          <li>
+            ✅ <strong>Offline:</strong> Use the app without internet connection
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Contact Us</h2>
+        <p>For privacy-related questions:</p>
+        <div class="contact">
+          <p><span class="icon">📧</span> Email: belalnoory2@gmail.com</p>
+          <p><span class="icon">🏠</span> Address: Kabul, Afghanistan</p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Built with privacy-first principles. Your trust is our priority.</p>
+        <p style="margin-top: 10px; font-size: 0.9rem">© 2025 PocketPlan</p>
+      </footer>
+    </div>
+  </body>
+</html>
